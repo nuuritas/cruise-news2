@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Cruise News Digest</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #111827;
+            color: #f9fafb;
+        }
+        .nav-link {
+            @apply text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium;
+        }
+        .nav-link.active {
+            @apply text-white bg-gray-900;
+        }
+    </style>
+</head>
+<body>
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<header class="py-6">
+<nav class="flex items-center justify-between">
+<div class="flex items-center">
+<span class="material-icons text-white text-3xl">directions_boat</span>
+<h1 class="text-xl font-bold ml-2">Cruise News Digest</h1>
+</div>
+<div class="hidden md:block">
+<div class="ml-10 flex items-baseline space-x-4">
+<a class="nav-link" href="#">Home</a>
+<a class="nav-link active" href="#">Top Stories</a>
+<a class="nav-link" href="#">Cruise Lines</a>
+<a class="nav-link" href="#">Topics</a>
+<a class="nav-link" href="#">About</a>
+</div>
+</div>
+</nav>
+</header>
+<main>
+<section class="mb-12">
+<h2 class="text-3xl font-bold mb-6">Top Stories</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+<div>
+<img alt="Large white cruise ship on the water" class="rounded-lg shadow-lg w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmxO62XEy_mZfPIclFzOOheqCT0gUSAuJvyaU34hV_2qv10w_9PgOj07mDTvo-mUv3KzgNf8rp9_xPTVba3WYDANg1rb5oLExDrcLZp9EMXBTodvWR3YBHU79e0mFjKCosZbmP8dmL97Yj2IfJIa03_G_tSPJ1N5rIIZz8xlodSr-SMTFgbyrc-A5__2kxlPETtQsn2yEXYIWpX1Y-SCFmjzYr8RTai14z5t8x-S-H5FxFqaW5KP3fhb1MG-BMJ2twJkIJ_cfwak4"/>
+</div>
+<div>
+<h3 class="text-2xl font-bold mb-4">New Cruise Ship Sets Sail with Innovative Features</h3>
+<p class="text-gray-300 mb-4">The latest vessel from Ocean Cruises introduces groundbreaking technology and amenities for passenger experiences. This new ship boasts eco-friendly propulsion, expanded suite options, and interactive entertainment systems, setting a new standard in the industry.</p>
+<ul class="list-disc list-inside text-gray-300 space-y-2 mb-4">
+<li>Eco-friendly propulsion system</li>
+<li>Expanded and luxurious suite options</li>
+<li>State-of-the-art interactive entertainment</li>
+</ul>
+<a class="text-blue-400 hover:text-blue-300 font-medium flex items-center" href="#">
+                            Read full article <span class="material-icons ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<section>
+<h2 class="text-3xl font-bold mb-6">Recent Articles</h2>
+<div class="flex space-x-2 mb-6">
+<button class="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium">All</button>
+<button class="bg-gray-700 hover:bg-gray-600 text-gray-300 px-4 py-2 rounded-full text-sm font-medium">Ocean Cruises</button>
+<button class="bg-gray-700 hover:bg-gray-600 text-gray-300 px-4 py-2 rounded-full text-sm font-medium">River Cruises</button>
+<button class="bg-gray-700 hover:bg-gray-600 text-gray-300 px-4 py-2 rounded-full text-sm font-medium">Expedition Cruises</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+<img alt="Cruise ship sailing on turquoise water" class="w-full h-48 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBs_E6-I8uS2EHnXChyaqotwpvPx5TMniNvPwUhogqCLvYgZxQtjIJKWHkcKwn80Rw25BujHTbfeQ6oin4wzCyrF1Oflg7ysmND6coGYWVl85WzM-Fl2d4llJLF1yvt9veBR6oMxoCehG6VNr2bjtzvaVu6O4bsFz1Q0xiV6zzFackLBAYq0K5jv4SruKto12HSGkYT3KZ677K9NRz17B1c6PQxV1EU0NssRwOcXK2Bo_M52Zk3tmSEA-i4tbR04kfKZYVjHPViV30"/>
+<div class="p-6">
+<p class="text-blue-400 text-sm font-medium mb-1">OCEAN CRUISES</p>
+<h4 class="text-lg font-bold mb-2">Ocean Cruises Expands Itineraries</h4>
+<p class="text-gray-400 text-sm mb-4">New itineraries for the upcoming season, featuring exotic destinations and extended stays in port.</p>
+<a class="text-blue-400 hover:text-blue-300 text-sm font-medium flex items-center" href="#">Read more <span class="material-icons ml-1 text-sm">arrow_forward</span></a>
+</div>
+</div>
+<div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+<img alt="Long river cruise boat on a calm river" class="w-full h-48 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvZLqOJxbGYcV0-po-aDkGQmOGVxlHtfTnq1E1tTIHwG9LWeRPglleOulvhpniO90pm0aIO8GnK6rx-4NNCBfZx6FkrWj5CGa9maEMcj1w4D1QJOudNS-Ut73BJBfHmimlds5DrSj__GmT5wDfWNOzJkSdYiW8IztQyJW_i8cDNr3TZ1iyMwVOrquh6dEze_TSswDbN6XuT1NoqMbTCHlXGvE0CVXO01T3qWmoCU2xJodvRZ1XuV7KU2ul4XcvdeCsffj6vxMekZs"/>
+<div class="p-6">
+<p class="text-blue-400 text-sm font-medium mb-1">RIVER CRUISES</p>
+<h4 class="text-lg font-bold mb-2">Luxury Riverboats Debut</h4>
+<p class="text-gray-400 text-sm mb-4">A new fleet of luxury riverboats, offering enhanced amenities and personalized service on European waterways.</p>
+<a class="text-blue-400 hover:text-blue-300 text-sm font-medium flex items-center" href="#">Read more <span class="material-icons ml-1 text-sm">arrow_forward</span></a>
+</div>
+</div>
+<div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+<img alt="White cruise ship against a blue sky with clouds" class="w-full h-48 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAR0TcVgMafUQUuFHeBOH1eefZXQhLwRIGgfbK6FXfH9EoVCModtJ17rb6FBu6G3SfVUG_IyDyZhUOnJQd4vIQXqYOO0xkiQEzSSS7SdsJ_bWvOG2MdGb5n1Iu7GUwKe84TjdyGd9_OyMLbRedFZeLyvIfK0rdBADKVvahvFRlOasVuqIKzhxGgP5Twef7hFPbjd5cshvEixklk7OylwUki1ROIwtf-9CeUDDKvfAHc8OwU3Mm01I5ox5VVoBDszHfObm6VtSg8FFc"/>
+<div class="p-6">
+<p class="text-blue-400 text-sm font-medium mb-1">EXPEDITION CRUISES</p>
+<h4 class="text-lg font-bold mb-2">Expedition Cruises Focus on Education</h4>
+<p class="text-gray-400 text-sm mb-4">Partnerships with leading scientists to offer immersive educational experiences in remote regions.</p>
+<a class="text-blue-400 hover:text-blue-300 text-sm font-medium flex items-center" href="#">Read more <span class="material-icons ml-1 text-sm">arrow_forward</span></a>
+</div>
+</div>
+<div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+<img alt="Elegant dining room on a cruise ship" class="w-full h-48 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCp1QJfE12N9e3N3MkK6Fc9jM2OxwRaK62iHE5C-rOj7vDwY_PqqEodw0Rfxw1Xa-dj1zD0xsyAx_MEQltNwwA2h5nls5dIQ_hl-brp2sUZWAOs6reD94ybe7O_ftSrHh9-Ko0IOw20GZ9xCe8AFbmjAOS7chJAu-LxiNoyJv7b7xehNOcKoUxFOzzoUOL7lDirsXCtooJuJaUid0REZ_P3UvkxE4JPP60_xZmBUGpXvFox2NW9zpZ8n1WxAT6-VWqrMcbGk41cnT4"/>
+<div class="p-6">
+<p class="text-blue-400 text-sm font-medium mb-1">ONBOARD EXPERIENCE</p>
+<h4 class="text-lg font-bold mb-2">Culinary Innovations at Sea</h4>
+<p class="text-gray-400 text-sm mb-4">Celebrity chefs are bringing new dining concepts to cruise ships, offering passengers a taste of world-class cuisine.</p>
+<a class="text-blue-400 hover:text-blue-300 text-sm font-medium flex items-center" href="#">Read more <span class="material-icons ml-1 text-sm">arrow_forward</span></a>
+</div>
+</div>
+<div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+<img alt="A castle on a cliff overlooking a river" class="w-full h-48 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbiIL2Ssji_MG343viLK4xdJ3UB4ohahtYU13HKdyNIjoPQHPjQ_E4pBWb8gjYq6z-LRCnyUbxmw4cX2WAoV-lhqkxovvXom1aa5uQizEDvUUXhBr5LyCKLe8_1_vb5NVGNJ9OZBmQRyj33ogxca1Vz7UV9oouJYrW5St_MCoGamAWstqgJsgn0tgh7-sxReQizWn-FcG0PINZHNDSU2L1u31VwUn8FTkst_A0aMf6Eexjpx8n9CyadQ2kORIXlLb2oU3M-LUjhHw"/>
+<div class="p-6">
+<p class="text-blue-400 text-sm font-medium mb-1">DESTINATIONS</p>
+<h4 class="text-lg font-bold mb-2">Historic Ports of Call</h4>
+<p class="text-gray-400 text-sm mb-4">Discover the charm of ancient European cities with new itineraries focused on cultural heritage sites.</p>
+<a class="text-blue-400 hover:text-blue-300 text-sm font-medium flex items-center" href="#">Read more <span class="material-icons ml-1 text-sm">arrow_forward</span></a>
+</div>
+</div>
+<div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+<img alt="An expedition cruise ship in a polar region with icebergs" class="w-full h-48 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuApGGNZzpXyabt2Dt96irKtzHou0dQDBJ9-tFKuwro_4wk_y10gBLledHJyiFgEMd7JwOlXIBoKa9nrGRzEOrT55FDzwHPr3E4PWjEAvcZ1vYrI5UTNcKpG9pqLiDqwh_La02ilzyvQwEzTcP1PxbYrC7qJ6SKCkICdshdjdEwBHKsPIWnzm_k3g10dLYAPKE35KdqDLn7Q5SPKNQAuALZ4yybtmeYadq9d5KlLKY4Ca2PoWdB1Cdd_XwSKNbOj9CwtL01J-NFdHco"/>
+<div class="p-6">
+<p class="text-blue-400 text-sm font-medium mb-1">EXPEDITION CRUISES</p>
+<h4 class="text-lg font-bold mb-2">Antarctic Adventures Await</h4>
+<p class="text-gray-400 text-sm mb-4">New polar-class vessels are making it safer and more comfortable to explore the pristine landscapes of Antarctica.</p>
+<a class="text-blue-400 hover:text-blue-300 text-sm font-medium flex items-center" href="#">Read more <span class="material-icons ml-1 text-sm">arrow_forward</span></a>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="mt-12 py-8 border-t border-gray-700 text-center text-gray-400 text-sm">
+<p>© 2024 Cruise News Digest. All rights reserved.</p>
+</footer>
+</div>
+
+</body></html>
