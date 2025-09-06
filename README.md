@@ -53,9 +53,10 @@ npm run dev
 1. Connect your GitHub repository to Cloudflare Pages
 2. Set build command: `npm run build`
 3. Set build output directory: `out`
-4. Deploy!
+4. **Important**: Make sure to select "Static Site" deployment type (not Next.js)
+5. Deploy!
 
-**Note**: This is a static export that doesn't require Node.js runtime or any compatibility flags.
+**Note**: This is a pure static export (HTML/CSS/JS files only) - no Node.js runtime needed.
 
 ## Project Structure
 

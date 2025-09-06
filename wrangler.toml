@@ -1,8 +1,0 @@
-name = "cruise-news-digest"
-compatibility_date = "2024-01-15"
-
-[env.production]
-name = "cruise-news-digest"
-
-[env.preview]
-name = "cruise-news-digest-preview"
