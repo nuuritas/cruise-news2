@@ -53,12 +53,9 @@ npm run dev
 1. Connect your GitHub repository to Cloudflare Pages
 2. Set build command: `npm run build`
 3. Set build output directory: `out`
-4. **Important**: Add Node.js compatibility flag:
-   - Go to Pages project → Settings → Compatibility Flags
-   - Add `nodejs_compat` flag to both production and preview environments
-5. Deploy!
+4. Deploy!
 
-**Note**: The `wrangler.toml` file already includes the Node.js compatibility flag configuration.
+**Note**: This is a static export that doesn't require Node.js runtime or any compatibility flags.
 
 ## Project Structure
 
