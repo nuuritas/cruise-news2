@@ -2,6 +2,8 @@
 
 A modern, responsive React/Next.js application for cruise industry news, optimized for Cloudflare Pages deployment.
 
+**Repository**: [https://github.com/nuuritas/cruise-news2](https://github.com/nuuritas/cruise-news2)
+
 ## Features
 
 - **20 Static Articles**: Pre-loaded with cruise industry content
